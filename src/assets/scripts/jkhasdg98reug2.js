@@ -27,7 +27,6 @@ async function getmycta() {
     const data = await response.json();
     const API_DETAILS = data.records.filter(
       (api) => api.game_title === "cassino-slots"
-      // (api) => api.game_title === "cassino-online"
     );
     return API_DETAILS;
   } catch (e) {
@@ -53,7 +52,7 @@ async function changeCtaLink() {
 
     const ctaLink = matchedObject
       ? matchedObject.cta_link
-      : "https://bj88php.site/af/f20v1r5A/minigame";
+      : "https://bora-jogar.com/affiliates/?btag=1332264_l318388";
 
     return ctaLink;
   } catch (error) {
